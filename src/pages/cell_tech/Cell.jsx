@@ -1,7 +1,7 @@
 import React from 'react'
-import cell from '../assets/bic_banner_web_image_161123.webp'
-import ola_logo from '../assets/ola-logo-13042023.svg'
-import hamburger from "../assets/hamburger.png"
+import cell from '../../assets/bic_banner_web_image_161123.webp'
+import ola_logo from '../../assets/ola-logo-13042023.svg'
+import hamburger from "../../assets/hamburger.png"
 
 function Cell() {
   return (

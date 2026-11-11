@@ -1,8 +1,8 @@
 import React from 'react'
-import lab_coat1 from '../assets/lab_coats_web_img1.webp'
-import lab_coat2 from '../assets/lab_coats_web_img3.webp'
-import lab_coat3 from '../assets/lab_coats_web_img2.webp'
-import lab_coat4 from '../assets/lab_coats_web_img4.webp'
+import lab_coat1 from '../../assets/lab_coats_web_img1.webp'
+import lab_coat2 from '../../assets/lab_coats_web_img3.webp'
+import lab_coat3 from '../../assets/lab_coats_web_img2.webp'
+import lab_coat4 from '../../assets/lab_coats_web_img4.webp'
 
 
 

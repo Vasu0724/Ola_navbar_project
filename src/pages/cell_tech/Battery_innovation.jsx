@@ -1,9 +1,9 @@
 import React from 'react'
-import R_D from '../assets/facility_icon_v2.svg'
-import equip from '../assets/cutting_edge_v2.svg'
-import researshers from '../assets/bic_sec_2_dweb_4.svg'
-import tools from '../assets/bic_sec_2_dweb_3.svg'
-import Battery_img_vid from '../assets/battery_innovation_center_web_img_v2.webp'
+import R_D from '../../assets/facility_icon_v2.svg'
+import equip from '../../assets/cutting_edge_v2.svg'
+import researshers from '../../assets/bic_sec_2_dweb_4.svg'
+import tools from '../../assets/bic_sec_2_dweb_3.svg'
+import Battery_img_vid from '../../assets/battery_innovation_center_web_img_v2.webp'
 
 function Battery_innovation() {
   return (

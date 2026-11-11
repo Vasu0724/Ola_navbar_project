@@ -23,8 +23,8 @@ body {
 
 .cell_navbar{
   position: absolute;
-  width: 90%;
-  margin-left: 40px;
+  width: 94%;
+  margin-left: 45px;
   display: flex;
   /* flex-direction: row; */
   justify-content: space-between;
@@ -39,8 +39,8 @@ body {
 }
 
 .hamburger_logo {
-  height: 35px;
-  max-width: 35px;
+  height: 37px;
+  max-width: 37px;
   padding: 8px;
   border-radius: 20px;
   background-color: white;
@@ -257,4 +257,569 @@ body {
     object-fit: cover;
     display: block;
     border-radius: 18px;
+}
+
+
+
+
+
+/* -------------------------------------------------------- */
+
+.into_s1_img_contain{
+  position: relative;
+  width: 100%;
+}
+
+.intro_s1_img {
+  width: 100vw;
+  height: 120vh;
+}
+
+
+.intro_s1_heading1{
+  position: absolute;
+  width: 100%;
+  top: 10%;
+  z-index: 15;
+}
+
+.intro_s1_heading1_content{
+  color: #FFF !important;
+  text-align: center;
+  font-size: 37px !important;
+  font-style: normal;
+  font-weight:100;
+  margin: 8px 0 8px 0;
+}
+
+.intro_s1_heading2{
+  position: absolute;
+  width: 100%;
+  top: 18%;
+  z-index: 15;
+}
+
+.intro_s1_heading2_content{
+  color: #FFF !important;
+  text-align: center;
+  font-size: 52px !important;
+  font-style: normal;
+  font-weight:400;
+  margin: 8px 0 16px 0;
+  letter-spacing: -0.54px;
+}
+
+.intro_s1_para1{
+  position: absolute;
+  width: 100%;
+  top: 31%;
+  z-index: 15;
+  text-align: center;
+}
+
+.intro_s1_para1_content{
+  
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
+  margin-right: 32px;
+  color: #f5f8f7 !important;
+}
+
+.intro_s1_links {
+  position: absolute;
+  width: 100%;
+  top: 40%;
+  z-index: 15;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.intro_s1_links a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.intro_s1_watch_film {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  padding: 18px 25px;
+  margin-right: 15px;
+  font-size: 15px ;
+  font-weight: 500;
+  color: #fff !important;
+  text-decoration: none;
+  background: rgba(0, 0, 0, 0.45);
+  backdrop-filter: blur(0px);
+  -webkit-backdrop-filter: blur(12px);
+  border-radius: 4px;
+  transition: all 0.3s ease;
+}
+
+.intro_s1_watch_film:hover {
+  background: rgba(0, 0, 0, 0.55);
+}
+
+
+.intro_s1_buy_now a {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 180px;
+  padding: 18px 0;
+
+  background: #fff;
+  color: #270a1d !important;
+  text-decoration: none;
+
+  font-family: 'Gentona-Medium';
+  font-size: 16px;
+  font-weight: 500;
+
+  transition: 0.3s ease;
+}
+
+.intro_s1_buy_now a:hover {
+  background: #eaeaea;
+}
+
+.intro_s1_feature {
+  position: absolute;
+  width: 100%;
+  top: 113%;
+  z-index: 15;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.intro_s1_kilometer,
+.intro_s1_power,
+.intro_s1_speed{
+  max-width: 210px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.intro_s1_kilometer_top,
+.intro_s1_power_top,
+.intro_s1_speed_top{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: baseline;
+}
+
+.intro_s1_kilometer_top_heading,
+.intro_s1_power_top_heading,
+.intro_s1_speed_top_heading{
+  font-size: 32px;
+  font-weight: 600;
+  color: #fff;
+  line-height: 38px;
+  letter-spacing: -0.32px;
+}
+
+.intro_s1_kilometer_top_para,
+.intro_s1_power_top_para,
+.intro_s1_speed_top_para{
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 26px;
+    color: #fff ;
+    margin: 0;
+}
+
+.intro_s1_kilometer_bottom_para,
+.intro_s1_power_bottom_para,
+.intro_s1_speed_bottom_para{
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 140%;
+    letter-spacing: -0.16px;
+}
+
+.s1_profile_img {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.s1_profile_img_pic {
+  width: 90%;
+  height: 130vh;
+  overflow: hidden;
+  display: block;
+}
+
+.s1_profile_container {
+  position: relative;
+  width: 100%;
+}
+
+.s1_profile_heading {
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 120%;
+  color: rgba(24, 30, 34, 1);
+  letter-spacing: 0;
+  text-align: center;
+  position: absolute;
+  top: 78px;
+  z-index: 16;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+
+
+.S1_profile_features {
+  width: 100%;
+  max-width: 1100px;
+  margin: 0 auto;
+  position: absolute;
+  bottom: 10%;
+  left: 50%;
+  transform: translateX(-50%);
+
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.s1_profile_feature1,
+.s1_profile_feature2,
+.s1_profile_feature3,
+.s1_profile_feature4 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+  text-align: center;
+}
+
+.s1_profile_feature1_img img,
+.s1_profile_feature2_img img,
+.s1_profile_feature3_img img,
+.s1_profile_feature4_img img {
+  width: 25px;
+  height: 25px;
+  object-fit: contain;
+  margin-bottom: 12px;
+}
+
+.s1_profile_feature1_heading h3,
+.s1_profile_feature2_heading h3 {
+  font-weight: 400;
+  font-size: 26px;
+  color: rgba(24, 30, 34, 1);
+  line-height: 116%;
+  letter-spacing: 0;
+  text-align: center;
+  margin: 0;
+}
+
+.s1_X_banner__contain{
+  padding: 96px 0;
+  width: 100%;
+}
+
+.s1_X_banner_img{
+  width: 100%;
+  max-width: 1366px;
+  padding: 0 60px;
+  margin: 0 auto;
+}
+
+.s1_X_banner_img img {
+  width: 95%;
+  object-fit: contain;
+}
+
+
+
+/* ----------------------------------- */
+
+
+.s1_pro_performance_container {
+  padding: 0 60px;
+  margin: auto;
+  max-width: 1366px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+
+.s1_pro_performance_top {
+  padding: 0;
+  margin: 0;
+
+}
+
+
+.s1_pro_performance_top_heading {
+    color: #181e22;
+    font-size: 54px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 116%;
+    letter-spacing: -0.54px;
+    margin: 0 0 11px 0;
+}
+
+.s1_pro_performance_top_para {
+  font-size: 18px;
+  color: #41515C;
+  margin-bottom: 30px;
+}
+
+.s1_pro_performance_pics{
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 20px;
+}
+
+.s1_pro_performance_pics_column1,
+.s1_pro_performance_pics_column2,
+.s1_pro_performance_pics_column3 {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  min-width: 0;
+  
+}
+
+.performance_card {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  border-radius: 16px;
+}
+
+.performance_card img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.s1_pro_performance_pics_column1_img1 img,
+.s1_pro_performance_pics_column2_img2 img,
+.s1_pro_performance_pics_column3_img1 img{
+  aspect-ratio: 5 / 3;
+}
+
+.s1_pro_performance_pics_column1_img2 img,
+.s1_pro_performance_pics_column2_img1 img,
+.s1_pro_performance_pics_column3_img2 img{
+  aspect-ratio: 3 / 4;
+}
+
+.s1_pro_performance_pics_column2_img2_content,
+.s1_pro_performance_pics_column1_img1_content ,
+.s1_pro_performance_pics_column3_img1_content {
+  position: absolute;
+  bottom: 20%;
+  left: 10%;
+  
+}
+
+.s1_pro_performance_pics_column2_img1_content,
+.s1_pro_performance_pics_column1_img2_content ,
+.s1_pro_performance_pics_column3_img2_content {
+  position: absolute;
+  top: 10%;
+  left: 8%;
+  
+}
+
+
+.performance_card h3 {
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 116%;
+  letter-spacing: -0.64px;
+  color: #181e22;
+  overflow-wrap: break-word;
+  margin-bottom: 12px;
+}
+
+.performance_card p {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.6;
+  color: #41515c;
+  margin: 0;
+  white-space: normal;
+  text-wrap: wrap;
+  max-width: 70%;
+}
+
+.s1_pro_performance_bottom {
+  margin: 30px 0 0 0;
+}
+
+
+.s1_pro_design_container {
+  padding: 240px 60px 0 60px;
+  margin: auto;
+  max-width: 1366px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.s1_pro_design_pics{
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 20px;
+}
+
+
+.s1_pro_design_pics_column1,
+.s1_pro_design_pics_column2,
+.s1_pro_design_pics_column3 {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  min-width: 0;
+  border-radius: 14px;
+}
+
+
+.s1_pro_design_pics_column2_img2 img,
+.s1_pro_design_pics_column3_img1 img{
+  aspect-ratio: 3 / 3;
+}
+
+.performance_card > div {
+  position: absolute;
+  top: 5%;
+  left: 8%;
+}
+
+.s1_pro_design_top_heading {
+    color: #181e22;
+    font-size: 54px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 116%;
+    letter-spacing: -0.54px;
+    margin: 0 0 11px 0;
+}
+
+.s1_pro_design_top_para {
+  font-size: 18px;
+  color: #41515C;
+  margin-bottom: 30px;
+}
+
+.s1_pro_performance_top_anchor{
+  color: #16AA51;
+  text-decoration: none;
+}
+
+.s1_pro_design_pics_column1_img1_content{
+  margin: 10px 0 150px 0;
+}
+
+.s1_pro_design_pics_column1_img2_content h3,
+.s1_pro_design_pics_column2_img1_content h3,
+.s1_pro_design_pics_column2_img2_content h3,
+.s1_pro_design_pics_column3_img1_content h3,
+.s1_pro_design_pics_column3_img2_content h3 {
+  font-size: 30px !important;
+}
+
+.s1_pro_design_pics_column1_img2_content p,
+.s1_pro_design_pics_column2_img1_content p,
+.s1_pro_design_pics_column2_img2_content p,
+.s1_pro_design_pics_column3_img1_content p,
+.s1_pro_design_pics_column3_img2_content p {
+  max-width: 100%;
+}
+
+
+.s1_pro_tech_container {
+  padding: 240px 60px 0 60px;
+}
+
+.s1_pro_tech_pics{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.s1_pro_tech_pics_column1,
+.s1_pro_tech_pics_column2{
+  display: flex;
+  flex-direction: row;
+  min-width: 0;
+  gap: 20px;
+  
+}
+
+.tech_card {
+  position: relative;
+  min-width: 0;
+  overflow: hidden;
+  border-radius: 16px;
+}
+
+.tech_card img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.s1_pro_tech_pics_column1_img1 ,
+.s1_pro_tech_pics_column2_img2 {
+  flex: 2fr;
+}
+
+.s1_pro_tech_pics_column2_img1,
+.s1_pro_tech_pics_column1_img2{
+  flex: 1fr;
+}
+
+/* .s1_pro_tech_pics_column1_img1 img,
+.s1_pro_tech_pics_column2_img2 img{
+  aspect-ratio: 5/3.5;
+}
+
+.s1_pro_tech_pics_column2_img1 img,
+.s1_pro_tech_pics_column1_img2 img{
+  aspect-ratio: 3/6;
+} */
+
+.tech_card > div {
+  position: absolute;
+  top: 5%;
+  left: 8%;
+}
+
+.tech_card h3 {
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 116%;
+  letter-spacing: -0.64px;
+  color: #181e22;
+  overflow-wrap: break-word;
+  margin-bottom: 12px;
+}
+
+.tech_card p {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.6;
+  color: #41515c;
+  margin: 0;
+  white-space: normal;
+  text-wrap: wrap;
 }

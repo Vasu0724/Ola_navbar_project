@@ -1,8 +1,8 @@
 import React from 'react'
-import R_D1 from '../assets/section3_banner_web01_v2.webp'
-import R_D2 from '../assets/section3_banner_web03_v2.webp'
-import R_D3 from '../assets/section3_banner_web02_v2.webp'
-import R_D4 from '../assets/section3_banner_web04_v2.webp'
+import R_D1 from '../../assets/section3_banner_web01_v2.webp'
+import R_D2 from '../../assets/section3_banner_web03_v2.webp'
+import R_D3 from '../../assets/section3_banner_web02_v2.webp'
+import R_D4 from '../../assets/section3_banner_web04_v2.webp'
 
 
 
