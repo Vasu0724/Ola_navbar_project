@@ -2,7 +2,6 @@ import React from 'react'
 import Intro_s1 from "../../assets/s1_pro_plus_banner_web_v2.webp"
 import ola_logo from '../../assets/ola-logo-13042023.svg'
 import hamburger from "../../assets/hamburger.png"
-import intro_s1_logo from '../../assets/s1_gen2_logo_white_v1.svg'
 
 function Intro_s1_pro() {
   return (
@@ -19,7 +18,7 @@ function Intro_s1_pro() {
         <div className='intro_s1_content'>
             <div className='intro_s1_heading1'>
                 <h1 className='intro_s1_heading1_content'>
-                Introducting S1 Pro+
+                Introducing S1 Pro+
                 </h1>
             </div>
             <div className='intro_s1_heading2'>

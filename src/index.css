@@ -626,7 +626,7 @@ body {
 .s1_pro_performance_pics_column1_img1_content ,
 .s1_pro_performance_pics_column3_img1_content {
   position: absolute;
-  bottom: 20%;
+  bottom: 15%;
   left: 10%;
   
 }
@@ -648,7 +648,7 @@ body {
   letter-spacing: -0.64px;
   color: #181e22;
   overflow-wrap: break-word;
-  margin-bottom: 12px;
+  margin-bottom: 8px;
 }
 
 .performance_card p {
@@ -659,7 +659,7 @@ body {
   margin: 0;
   white-space: normal;
   text-wrap: wrap;
-  max-width: 70%;
+  max-width: 85%;
 }
 
 .s1_pro_performance_bottom {
@@ -698,7 +698,12 @@ body {
   aspect-ratio: 3 / 3;
 }
 
-.performance_card > div {
+
+.s1_pro_design_pics_column1_img2_content,
+.s1_pro_design_pics_column2_img1_content,
+.s1_pro_design_pics_column2_img2_content,
+.s1_pro_design_pics_column3_img1_content,
+.s1_pro_design_pics_column3_img2_content {
   position: absolute;
   top: 5%;
   left: 8%;
@@ -780,23 +785,13 @@ body {
 
 .s1_pro_tech_pics_column1_img1 ,
 .s1_pro_tech_pics_column2_img2 {
-  flex: 2fr;
+  flex: 2;
 }
 
 .s1_pro_tech_pics_column2_img1,
 .s1_pro_tech_pics_column1_img2{
-  flex: 1fr;
+  flex: 1;
 }
-
-/* .s1_pro_tech_pics_column1_img1 img,
-.s1_pro_tech_pics_column2_img2 img{
-  aspect-ratio: 5/3.5;
-}
-
-.s1_pro_tech_pics_column2_img1 img,
-.s1_pro_tech_pics_column1_img2 img{
-  aspect-ratio: 3/6;
-} */
 
 .tech_card > div {
   position: absolute;
