@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
@@ -19,3 +20,7 @@ If you are developing a production application, we recommend using TypeScript wi
 # S1_pro_project
 s1_pro in ola app 
 >>>>>>> 8eef7ab06f154c259e8de1747ed38fdc387e9b2a
+=======
+# Ola_navbar_project
+Creating navbar for the ola project and adding it to the git to save on cload
+>>>>>>> eaf5ecabe7884a57f2175e524a59c6ae98e0baf2
